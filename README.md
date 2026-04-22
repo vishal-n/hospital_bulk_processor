@@ -45,15 +45,6 @@ General Hospital,123 Main St,555-1234
 City Medical Center,456 Oak Ave,555-6789
 ```
 
-## Deployment (Render)
-
-1. Push this project to GitHub.
-2. Create a new **Web Service** on Render.
-3. Use:
-   - Build command: `pip install -r requirements.txt`
-   - Start command: `uvicorn app.main:app --host 0.0.0.0 --port $PORT`
-4. Deploy and access `/docs`.
-
 ## Run with Docker
 
 ```bash
